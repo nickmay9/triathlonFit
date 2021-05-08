@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7BF8E0C2646FC870005CA6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BF8E0B2646FC870005CA6C /* AppDelegate.swift */; };
+		C7BF8E0E2646FC870005CA6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BF8E0D2646FC870005CA6C /* SceneDelegate.swift */; };
+		C7BF8E102646FC870005CA6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BF8E0F2646FC870005CA6C /* ViewController.swift */; };
+		C7BF8E132646FC870005CA6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BF8E112646FC870005CA6C /* Main.storyboard */; };
+		C7BF8E152646FC890005CA6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BF8E142646FC890005CA6C /* Assets.xcassets */; };
+		C7BF8E182646FC890005CA6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BF8E162646FC890005CA6C /* LaunchScreen.storyboard */; };
+		C7BF8E232646FC8A0005CA6C /* triathlonFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BF8E222646FC8A0005CA6C /* triathlonFitTests.swift */; };
+		C7BF8E2E2646FC8A0005CA6C /* triathlonFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BF8E2D2646FC8A0005CA6C /* triathlonFitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7BF8E1F2646FC8A0005CA6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7BF8E002646FC870005CA6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7BF8E072646FC870005CA6C;
+			remoteInfo = triathlonFit;
+		};
+		C7BF8E2A2646FC8A0005CA6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7BF8E002646FC870005CA6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7BF8E072646FC870005CA6C;
+			remoteInfo = triathlonFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7BF8E082646FC870005CA6C /* triathlonFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = triathlonFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BF8E0B2646FC870005CA6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7BF8E0D2646FC870005CA6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C7BF8E0F2646FC870005CA6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7BF8E122646FC870005CA6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7BF8E142646FC890005CA6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7BF8E172646FC890005CA6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7BF8E192646FC890005CA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7BF8E1E2646FC8A0005CA6C /* triathlonFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = triathlonFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BF8E222646FC8A0005CA6C /* triathlonFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = triathlonFitTests.swift; sourceTree = "<group>"; };
+		C7BF8E242646FC8A0005CA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7BF8E292646FC8A0005CA6C /* triathlonFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = triathlonFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BF8E2D2646FC8A0005CA6C /* triathlonFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = triathlonFitUITests.swift; sourceTree = "<group>"; };
+		C7BF8E2F2646FC8A0005CA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7BF8E052646FC870005CA6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BF8E1B2646FC8A0005CA6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BF8E262646FC8A0005CA6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7BF8DFF2646FC870005CA6C = {
+			isa = PBXGroup;
+			children = (
+				C7BF8E0A2646FC870005CA6C /* triathlonFit */,
+				C7BF8E212646FC8A0005CA6C /* triathlonFitTests */,
+				C7BF8E2C2646FC8A0005CA6C /* triathlonFitUITests */,
+				C7BF8E092646FC870005CA6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7BF8E092646FC870005CA6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7BF8E082646FC870005CA6C /* triathlonFit.app */,
+				C7BF8E1E2646FC8A0005CA6C /* triathlonFitTests.xctest */,
+				C7BF8E292646FC8A0005CA6C /* triathlonFitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7BF8E0A2646FC870005CA6C /* triathlonFit */ = {
+			isa = PBXGroup;
+			children = (
+				C7BF8E0B2646FC870005CA6C /* AppDelegate.swift */,
+				C7BF8E0D2646FC870005CA6C /* SceneDelegate.swift */,
+				C7BF8E0F2646FC870005CA6C /* ViewController.swift */,
+				C7BF8E112646FC870005CA6C /* Main.storyboard */,
+				C7BF8E142646FC890005CA6C /* Assets.xcassets */,
+				C7BF8E162646FC890005CA6C /* LaunchScreen.storyboard */,
+				C7BF8E192646FC890005CA6C /* Info.plist */,
+			);
+			path = triathlonFit;
+			sourceTree = "<group>";
+		};
+		C7BF8E212646FC8A0005CA6C /* triathlonFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7BF8E222646FC8A0005CA6C /* triathlonFitTests.swift */,
+				C7BF8E242646FC8A0005CA6C /* Info.plist */,
+			);
+			path = triathlonFitTests;
+			sourceTree = "<group>";
+		};
+		C7BF8E2C2646FC8A0005CA6C /* triathlonFitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7BF8E2D2646FC8A0005CA6C /* triathlonFitUITests.swift */,
+				C7BF8E2F2646FC8A0005CA6C /* Info.plist */,
+			);
+			path = triathlonFitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7BF8E072646FC870005CA6C /* triathlonFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7BF8E322646FC8A0005CA6C /* Build configuration list for PBXNativeTarget "triathlonFit" */;
+			buildPhases = (
+				C7BF8E042646FC870005CA6C /* Sources */,
+				C7BF8E052646FC870005CA6C /* Frameworks */,
+				C7BF8E062646FC870005CA6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = triathlonFit;
+			productName = triathlonFit;
+			productReference = C7BF8E082646FC870005CA6C /* triathlonFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7BF8E1D2646FC8A0005CA6C /* triathlonFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7BF8E352646FC8A0005CA6C /* Build configuration list for PBXNativeTarget "triathlonFitTests" */;
+			buildPhases = (
+				C7BF8E1A2646FC8A0005CA6C /* Sources */,
+				C7BF8E1B2646FC8A0005CA6C /* Frameworks */,
+				C7BF8E1C2646FC8A0005CA6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7BF8E202646FC8A0005CA6C /* PBXTargetDependency */,
+			);
+			name = triathlonFitTests;
+			productName = triathlonFitTests;
+			productReference = C7BF8E1E2646FC8A0005CA6C /* triathlonFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7BF8E282646FC8A0005CA6C /* triathlonFitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7BF8E382646FC8A0005CA6C /* Build configuration list for PBXNativeTarget "triathlonFitUITests" */;
+			buildPhases = (
+				C7BF8E252646FC8A0005CA6C /* Sources */,
+				C7BF8E262646FC8A0005CA6C /* Frameworks */,
+				C7BF8E272646FC8A0005CA6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7BF8E2B2646FC8A0005CA6C /* PBXTargetDependency */,
+			);
+			name = triathlonFitUITests;
+			productName = triathlonFitUITests;
+			productReference = C7BF8E292646FC8A0005CA6C /* triathlonFitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7BF8E002646FC870005CA6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C7BF8E072646FC870005CA6C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					C7BF8E1D2646FC8A0005CA6C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C7BF8E072646FC870005CA6C;
+					};
+					C7BF8E282646FC8A0005CA6C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C7BF8E072646FC870005CA6C;
+					};
+				};
+			};
+			buildConfigurationList = C7BF8E032646FC870005CA6C /* Build configuration list for PBXProject "triathlonFit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7BF8DFF2646FC870005CA6C;
+			productRefGroup = C7BF8E092646FC870005CA6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7BF8E072646FC870005CA6C /* triathlonFit */,
+				C7BF8E1D2646FC8A0005CA6C /* triathlonFitTests */,
+				C7BF8E282646FC8A0005CA6C /* triathlonFitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7BF8E062646FC870005CA6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BF8E182646FC890005CA6C /* LaunchScreen.storyboard in Resources */,
+				C7BF8E152646FC890005CA6C /* Assets.xcassets in Resources */,
+				C7BF8E132646FC870005CA6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BF8E1C2646FC8A0005CA6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BF8E272646FC8A0005CA6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7BF8E042646FC870005CA6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BF8E102646FC870005CA6C /* ViewController.swift in Sources */,
+				C7BF8E0C2646FC870005CA6C /* AppDelegate.swift in Sources */,
+				C7BF8E0E2646FC870005CA6C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BF8E1A2646FC8A0005CA6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BF8E232646FC8A0005CA6C /* triathlonFitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BF8E252646FC8A0005CA6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BF8E2E2646FC8A0005CA6C /* triathlonFitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7BF8E202646FC8A0005CA6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7BF8E072646FC870005CA6C /* triathlonFit */;
+			targetProxy = C7BF8E1F2646FC8A0005CA6C /* PBXContainerItemProxy */;
+		};
+		C7BF8E2B2646FC8A0005CA6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7BF8E072646FC870005CA6C /* triathlonFit */;
+			targetProxy = C7BF8E2A2646FC8A0005CA6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7BF8E112646FC870005CA6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7BF8E122646FC870005CA6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7BF8E162646FC890005CA6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7BF8E172646FC890005CA6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7BF8E302646FC8A0005CA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7BF8E312646FC8A0005CA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7BF8E332646FC8A0005CA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = triathlonFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NickMay.triathlonFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7BF8E342646FC8A0005CA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = triathlonFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NickMay.triathlonFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7BF8E362646FC8A0005CA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = triathlonFitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NickMay.triathlonFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/triathlonFit.app/triathlonFit";
+			};
+			name = Debug;
+		};
+		C7BF8E372646FC8A0005CA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = triathlonFitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NickMay.triathlonFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/triathlonFit.app/triathlonFit";
+			};
+			name = Release;
+		};
+		C7BF8E392646FC8A0005CA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = triathlonFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NickMay.triathlonFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = triathlonFit;
+			};
+			name = Debug;
+		};
+		C7BF8E3A2646FC8A0005CA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = triathlonFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NickMay.triathlonFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = triathlonFit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7BF8E032646FC870005CA6C /* Build configuration list for PBXProject "triathlonFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BF8E302646FC8A0005CA6C /* Debug */,
+				C7BF8E312646FC8A0005CA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7BF8E322646FC8A0005CA6C /* Build configuration list for PBXNativeTarget "triathlonFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BF8E332646FC8A0005CA6C /* Debug */,
+				C7BF8E342646FC8A0005CA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7BF8E352646FC8A0005CA6C /* Build configuration list for PBXNativeTarget "triathlonFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BF8E362646FC8A0005CA6C /* Debug */,
+				C7BF8E372646FC8A0005CA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7BF8E382646FC8A0005CA6C /* Build configuration list for PBXNativeTarget "triathlonFitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BF8E392646FC8A0005CA6C /* Debug */,
+				C7BF8E3A2646FC8A0005CA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7BF8E002646FC870005CA6C /* Project object */;
+}
